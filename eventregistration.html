@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="D:\college event management system\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="D:\college event management system\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js"></script>
+
+</head>
+<body class="bg-info">   
+    <h1 class="text-center">Registration</h1>
+    <div class="container border mt-3 bg-white " style="width:800px">
+
+    <form class="row g-1 justify-content-center align-items-center" style="width:600px;height:800px;margin-left:50px;margin-top:50px">
+        <div class="col-md-6">
+            
+            <label for="nameid" class="form-label col-6">Full Name</label>
+            <input type="text" id="nameid" class="form-control" placeholder="enter name">
+            </div>
+            <div class="col-6">
+      
+            <label for="rollid" class="form-label">Roll No</label>
+            <input type="text" id="rollid" class="form-control" placeholder="enter roll no">
+            </div>
+             <div class="col-12 w-10px" >
+
+                        <label for="branchid" class="form-label">branch</label>
+                         <select class="form-select" id="genderid">
+                            <option selected></option>
+                            <option value="1">CSE</option>
+                            <option value ="2">ECE</option>
+                            <option value="3">CSM</option>
+                        </select>
+                        </div>
+             <div class="col-12 ">
+        
+            <label for="emailid" class="form-label">Email</label>
+            <input type="text" id="emailid" class="form-control" placeholder="enter email">
+            </div>
+             <div class="col-12">
+                <label for="mobileid" class="form-label">Mobile</label>
+                <input type="number" class="form-control" placeholder="enter mobile no">
+                </div>
+                
+                         
+                           <label for="qualification" class="form-label g-2" >event selection</label>
+    <select class="form-select" style="margin:auto auto" id="qualification" name="qualification">
+        <option selected disabled>Select event</option>
+        <option>Technical quiz</option>
+        <option>hackathon</option>
+        <option>poster presentation</option>
+        <option>coding contest</option>
+        <option>project expo</option>
+        <option>cultural fest</option>
+    </select>
+                                                
+                           
+                          <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#mymodal">submit</button>
+                        
+<div class="modal" id="mymodal">
+<div class ="modal-dialog">
+    <div class ="modal-content">
+        <div class ="modal-header">
+            <h2 class="modal-title">success</h2>
+             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class ="modal-body ">
+                <p class="alert alert-success" >success</p>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+                            </form>
+                            </div>
+                            
+                        
+                                </body>
+                                </html>
